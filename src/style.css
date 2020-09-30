@@ -2,7 +2,6 @@ html,
 body {
 	box-sizing: border-box;
 	margin: 0 auto;
-	max-width: 50em;
 	padding: 0;
 	height: 100%;
 	background-color: #fcbf49;
@@ -19,8 +18,8 @@ a:visited {
 	grid-template-columns: 1fr 5fr;
 	grid-template-rows: 1fr 2fr 10fr;
 	font-family: "PT Sans Caption", sans-serif;
-	width: 60vh;
-	height: 60vh;
+	width: 600px;
+	height: 600px;
 	transform: rotate(45deg);
 	margin: 20%;
 }
@@ -104,6 +103,10 @@ a:visited {
 	background-color: #003049;
 	grid-column: 1 / 4;
 	grid-row: 3;
+	color: #eae2b7;
+	font-size: 2em;
+	text-align: left;
+	padding-right: 1.5em;
 }
 
 #gitHub {
@@ -113,11 +116,12 @@ a:visited {
 	color: #eae2b7;
 	font-size: 2em;
 	padding-top: 1em;
+	text-align: right;
 	writing-mode: vertical-rl;
 	transform: rotate(-180deg);
 }
 
 #gitLogo {
-	filter: invert(70%);
+	filter: invert(90%);
 	transform: rotate(90deg);
 }
